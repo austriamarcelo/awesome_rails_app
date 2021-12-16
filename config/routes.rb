@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   
    root to: 'home#index'
 
-   get 'invoke', to: 'user#create', as: :create_user
+   post 'invoke', to: 'user#create', as: :create_user
 
 end
